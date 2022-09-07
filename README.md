@@ -1,4 +1,10 @@
-# -Client-Server-Trading-System-using-socket-programming
+# Client-Server-Trading-System-using-socket-programming
+# Code Run
+Run the code in following way.
+Server is handling multiple clients at a same times to do this we are using threads hence to run the server compile with : g++ server.cpp -lpthread
+To compile client type : g++ client.cpp
+First run the server and pass two arguments first one being IP address and second is Port number. Then run client similarly. 
+
 # Introduction
 A Client-Server Based Trading System is to be designed with the following specifications. There will be a set of 
 traders who will trade with each other in the automated system. There will be a Server which will register 
